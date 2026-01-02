@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "title":"Cocobite.in- Homemade Choclate E-Commerce",
+        "description":"Cocobite.in is a full-stack e-commerce website developed for a homemade chocolate business. The platform allows users to browse products, view detailed descriptions, and place online orders. The backend was built using Node.js and Express.js with MySQL database integration to manage products, customers, and orders. The project focuses on providing a smooth shopping experience with clean UI design and proper backend data handling.",
+        "technologies":["HTML","BOOTSTRAP","JS","NODEJS","EXPRESS","MYSQL"]
+    },
+    {
+        "id":2,
+        "title":"Smart Shop-Online Shopping Web Application",
+        "description":"Smart Shop is an online shopping website created to simulate real-world e-commerce functionality. It includes product listing, category-wise filtering, and a simple cart system. The project was developed using HTML, CSS, JavaScript, JSP, and MySQL, allowing users to explore products and manage shopping activities efficiently. This project strengthened my understanding of frontend-backend integration and database connectivity.",
+        "technologies":["HTML","CSS","JS","JAVASCRIPT","MYSQL"]
+    },
+    
+    {
+        "id":3,
+        "title": "Barcode Attendance Management System",
+        "description": "The Barcode Attendance Management System is a desktop-based application designed to automate student attendance using barcode scanning. Developed using C# and MySQL, the system reduces manual effort and errors by instantly recording attendance into the database. It provides features such as student registration, barcode generation, and daily attendance reports, making the attendance process faster and more reliable.",
+        "technologies":["C#","MYSQL"]
+    }
+]

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #13151b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+
+  .card {
+    @apply bg-[#171f2f] text-white p-6 rounded-xl shadow-md hover:shadow-xl  hover:shadow-[0_10px_30px_rgba(59,130,246,0.5)] transition;
+  }
+
+  .title {
+    @apply text-xl font-bold mb-2;
+  }
+
+  .description {
+    @apply text-gray-300 leading-relaxed mb-4;
+  }
+
+  .tech {
+    @apply text-blue-500 bg-blue-600/10 px-3 rounded-full text-sm;
+  }
+}
