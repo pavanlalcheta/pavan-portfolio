@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub} from 'react-icons/fa';
 import profile from "../assets/my passport photo.jpg"
-
+import resume from "/assets/Pavan_Lalcheta_CV.pdf";
 const Hero = () => {
   return (
     <div className="flex flex-col md:pt-20 md:flex-row items-center text-white py-2 min-h-[500px]">
@@ -15,7 +15,7 @@ const Hero = () => {
           className="sm:items-center sm:justify-center border text-blue-500 border-blue-500 p-3 
         rounded-lg hover:text-white hover:bg-blue-500 transition 
         duration-150 active:scale-95"
-        href="public\Pavan_lalcheta_cv.pdf" download
+        href={resume} download
         >
           Download CV
         </a>
