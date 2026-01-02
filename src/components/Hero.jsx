@@ -1,4 +1,5 @@
 import { FaLinkedin, FaGithub} from 'react-icons/fa';
+import profile from "../assets/my passport photo.jpg"
 
 const Hero = () => {
   return (
@@ -37,7 +38,7 @@ const Hero = () => {
       {/* Photo Section */}
       <div className="mt-8 pt-10 md:mt-16 md:ml-[300px]">
         <img className="h-[260px] w-[260px] md:h-[410px] md:w-[400px] rounded-full object-cover border-2 border-blue-500" 
-        src="public\my passport photo.jpg">
+        src={profile}>
         </img>
       </div>
 
